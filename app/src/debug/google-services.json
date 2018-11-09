@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "666298577224",
+    "firebase_url": "https://motor-a3b19.firebaseio.com",
+    "project_id": "motor-a3b19",
+    "storage_bucket": "motor-a3b19.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:666298577224:android:c899071408f98933",
+        "android_client_info": {
+          "package_name": "com.nicolemosiexample.motor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "666298577224-40ofq8ch1molqifd7ps18qcrsd949dnh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMOVJM-IvTpAO_9A9yqDs1b3vHPklPKbQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

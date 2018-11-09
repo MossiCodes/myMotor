@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="30px"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/activity_main">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="300px"
+        android:src="@drawable/ic_directions_car_black_24dp"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20px"
+        android:id="@+id/edittext_email_login"
+        android:hint="@string/enter_email_address"
+        android:inputType="textEmailAddress"
+        android:textColor="#000"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20px"
+        android:id="@+id/edittext_password_login"
+        android:hint="@string/enter_password"
+        android:inputType="textPassword"
+        android:textColor="#000"/>
+
+    <com.dd.processbutton.iml.ActionProcessButton
+        android:id="@+id/button_login"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30px"
+        android:text="@string/log_in"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+
+    <com.dd.processbutton.iml.ActionProcessButton
+        android:id="@+id/button_signup"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:layout_marginTop="30px"
+        android:text="@string/sign_up"
+        android:textColor="#000"
+        android:textSize="12sp" />
+
+</LinearLayout>

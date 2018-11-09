@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#fff"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.nicolemosiexample.motor.SplashActivity"
+    tools:showIn="@layout/activity_splash">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="1000px"
+        android:src="@drawable/ic_directions_car_black_24dp"/>
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/button_login_splash"
+            android:layout_columnWeight="1"
+            android:text="@string/log_in"
+            app:pb_colorNormal="#fff"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+        <com.dd.processbutton.iml.ActionProcessButton
+            android:id="@+id/button_signup_splash"
+            android:layout_columnWeight="1"
+            android:text="@string/sign_up"
+            app:pb_colorNormal="#fff"
+            android:textColor="#000"
+            android:textSize="12sp" />
+
+    </GridLayout>
+
+</RelativeLayout>
